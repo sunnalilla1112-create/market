@@ -1,0 +1,433 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1210px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.btn1 {
+  border: none;
+  background-color: white;
+}
+.qwer {
+  display: flex;
+  gap: 15px;
+}
+.father {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+.tt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+.dd {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  gap: 15px;
+  margin-bottom: 0;
+}
+a {
+  text-decoration-line: none;
+  color: #000;
+}
+.input-search {
+  width: 700px;
+  height: 60px;
+}
+.knopka {
+  width: 60px;
+  height: 60px;
+  background-color: lightgray;
+  position: relative;
+}
+.knopka img {
+  position: absolute;
+  top: 3px;
+  left: 19px;
+}
+.knopka2 {
+  width: 213px;
+  height: 50px;
+  border-radius: 50px;
+}
+.bola {
+  list-style-type: none;
+  margin-left: 0;
+  margin-top: 30px;
+  display: flex;
+  gap: 40px;
+
+  align-items: center;
+}
+.btn6 {
+  background-color: rgba(240, 250, 255, 1);
+  color: rgba(53, 175, 160, 1);
+  border: rgba(53, 175, 160, 1);
+  padding: 10px 40px;
+  border-radius: 40px;
+  margin-left: 70px;
+}
+
+.hhh {
+  font-family: Dosis;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 36px;
+
+  line-height: 54px;
+  letter-spacing: -0.1px;
+  vertical-align: middle;
+  color: red;
+}
+.card5 {
+  background: url("./images/slider-image-3.jpg.svg") no-repeat center / cover;
+  padding: 40px;
+  border-radius: 7px;
+}
+.sunnat {
+  margin-top: 40px;
+}
+.shalom {
+  display: flex;
+  align-items: center;
+  padding: 20px 45px;
+  width: 233px;
+}
+.kkk {
+  display: flex;
+  align-items: center;
+  border: #000 1px;
+}
+.shalo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.rasmla {
+  display: flex;
+
+  flex-direction: column;
+}
+
+.big-deal {
+  width: 320px;
+  background: #fff;
+  border: 3px solid #ff4d6d;
+  border-radius: 15px;
+  padding: 20px;
+  position: relative;
+}
+
+.big-deal h3 span {
+  color: #ff4d6d;
+}
+
+.timer {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.timer div {
+  background: #ff4d6d;
+  color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  width: 45px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.discount {
+  position: absolute;
+  top: 140px;
+  left: 20px;
+  background: #ff4d6d;
+  color: #fff;
+  border-radius: 50%;
+  padding: 15px;
+  font-weight: bold;
+}
+
+.product-img {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.new-price {
+  font-size: 22px;
+  color: #ff4d6d;
+  font-weight: bold;
+}
+
+.stock {
+  margin-top: 10px;
+}
+
+.bar {
+  width: 100%;
+  height: 8px;
+  background: #eee;
+  border-radius: 10px;
+  margin-top: 5px;
+  gap: 20px;
+}
+
+.fill {
+  width: 80%;
+  height: 100%;
+  background: linear-gradient(to right, red, orange);
+  border-radius: 10px;
+}
+
+.wrapper {
+  display: flex;
+  gap: 100px;
+}
+
+.grid {
+  width: 750px;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.mmm {
+  background: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  position: relative;
+}
+
+.mmm img {
+  width: 100px;
+  height: auto;
+}
+
+.badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #2bb673;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.price span {
+  color: #ff4d6d;
+  font-weight: bold;
+}
+
+.kok {
+  background-image: url(./bacola-banner-11.jpg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 70px 80px;
+  width: 570px;
+}
+
+.rozviy {
+  background-image: url(./bacola-banner-12.jpg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 70px 80px;
+  width: 570px;
+}
+.sinisi {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 120px;
+}
+
+.card7 {
+  width: 213px;
+  padding: 20px;
+  border: 1px solid black;
+  text-align: center;
+  position: relative;
+}
+
+.bt {
+  background-color: rgba(53, 175, 160, 1);
+  width: 45px;
+  border-radius: 4px;
+  border: none;
+  padding: 2px;
+  position: absolute;
+  left: 10px;
+  top: 2px;
+  color: white;
+}
+
+.polo {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.bilol {
+  margin-bottom: 130px;
+}
+.kiki {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 100px;
+}
+.shoxjaxon1 {
+  margin-bottom: 100px;
+}
+.ucober {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 100px;
+}
+
+/* NEWSLETTER */
+.newsletter {
+  background: #2fa79a;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.newsletter-content {
+  max-width: 700px;
+  margin: auto;
+}
+
+.newsletter h2 {
+  font-size: 32px;
+  margin: 10px 0;
+}
+
+.small-text {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.desc {
+  margin-bottom: 20px;
+}
+
+.subscribe-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.subscribe-box input {
+  padding: 12px;
+  width: 300px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+.subscribe-box button {
+  padding: 12px 20px;
+  border: none;
+  background: white;
+  color: #2fa79a;
+  font-weight: bold;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.subscribe-box button:hover {
+  background: #eee;
+}
+
+/* FEATURES */
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  font-size: 14px;
+}
+
+/* FOOTER */
+.footer {
+  background: #fff;
+  padding: 40px 20px;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.footer h4 {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer ul li {
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #666;
+  cursor: pointer;
+}
+
+.footer ul li:hover {
+  color: #2fa79a;
+}
+
+/* BOTTOM */
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+  flex-wrap: wrap;
+}
+
+.phone span {
+  font-size: 12px;
+  color: #888;
+}
+
+.store-buttons button {
+  margin-left: 10px;
+  padding: 8px 15px;
+  border: none;
+  background: #000;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 13px;
+  color: #999;
+  margin-top: 20px;
+}
