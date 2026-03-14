@@ -774,3 +774,218 @@ a {
   padding: 4px 8px;
   border-radius: 4px;
 }
+body {
+  margin: 0;
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+
+.gradient-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: linear-gradient(270deg, #000000, #3333ff, #ffffff, #ffd118);
+  background-size: 800% 800%;
+  animation: gradientMove 15s ease infinite;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.title {
+  text-align: center;
+  margin-top: 200px;
+  color: white;
+  font-size: 50px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* MOBILE 376px */
+@media (max-width: 376px) {
+  .dd {
+    display: none;
+  }
+
+  .tt {
+    flex-direction: column;
+    display: flex;
+    font-size: 12px;
+    gap: 5px;
+  }
+
+  nav {
+    flex-direction: column;
+    display: flex;
+    gap: 15px;
+  }
+
+  .input-search {
+    width: 100%;
+  }
+
+  .bola {
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .bar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .wrapper {
+    flex-direction: column;
+    display: flex;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .sinisi {
+    flex-direction: column;
+    display: flex;
+    gap: 15px;
+  }
+
+  .shoxjahon1 {
+    width: 60px;
+  }
+
+  .polo {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    width: 100%;
+  }
+
+  .kiki {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    width: 100%;
+  }
+
+  .ucober {
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+  }
+
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+  }
+
+  .features {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .newsletter-content {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .subscribe-box {
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+  }
+
+  .subscribe-box input {
+    width: 100%;
+  }
+
+  .dedd {
+    width: 60px;
+  }
+
+  .newsletter {
+    width: 100%;
+  }
+
+  .subscribe-box button {
+    width: 100%;
+  }
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#stars {
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.container {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+@media (max-width: 376px) {
+  .father,
+  .tt,
+  .sinisi,
+  .polo,
+  .kiki,
+  .ucober {
+    flex-wrap: wrap;
+  }
+}
+
+/* Scrollni butunlay yo'qotish */
+
+/* Hech qaysi element ekran tashqarisiga chiqmasin */
+
+/* Rasmlar kattalashib ketmasin */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Canvas ham ekran ichida bo'lsin */
+#stars {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
