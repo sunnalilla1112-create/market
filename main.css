@@ -194,7 +194,8 @@ a {
 
 .wrapper {
   display: flex;
-  /* gap: 100px; */
+  gap: 100px;
+  margin-bottom: 120px;
 }
 
 .grid {
@@ -955,31 +956,12 @@ img {
   height: 100%;
   pointer-events: none;
 }
-.container {
-  max-width: 100%;
-  overflow-x: hidden;
-}
-
-@media (max-width: 376px) {
-  .father,
-  .tt,
-  .sinisi,
-  .polo,
-  .kiki,
-  .ucober {
-    flex-wrap: wrap;
-  }
-}
 
 /* Scrollni butunlay yo'qotish */
 
 /* Hech qaysi element ekran tashqarisiga chiqmasin */
 
 /* Rasmlar kattalashib ketmasin */
-img {
-  max-width: 100%;
-  height: auto;
-}
 
 /* Canvas ham ekran ichida bo'lsin */
 #stars {
