@@ -788,7 +788,7 @@ body {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background: linear-gradient(270deg, #000000, #3333ff, #ffffff, #ffd118);
+  background: linear-gradient(270deg, #000000, #3333ff, #000000, #f00000);
   background-size: 800% 800%;
   animation: gradientMove 15s ease infinite;
 }
@@ -970,4 +970,58 @@ img {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+
+
+.register-form h2{
+    text-align:center;
+}
+
+.register-form input{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+.register-form button{
+    width:100%;
+    padding:10px;
+    background:#2575fc;
+    border:none;
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.register-form button:hover{
+    background:#1b5ed8;
+}
+
+.look{
+    text-align:center;
+}
+
+
+.register-form{
+  background-color: #1b5ed8;
+  align-items: center;
+  display: flex;
+  height: auto;
+  justify-content: center;
+  flex-direction: column;
+  width: 300px;
+  border-radius: 12px;
+  padding: 40px;
+}
+
+
+
+
+
+
+p {
+  color: white;
 }

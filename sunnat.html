@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Register Form</title>
+<link rel="stylesheet" href="./main.css">
+
+<style>
+body{
+    font-family: Arial;
+    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+
+           
+}
+
+
+ 
+form{
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    width:300px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+h2{
+    text-align:center;
+}
+
+input{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+button{
+    width:100%;
+    padding:10px;
+    background:#007bff;
+    border:none;
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#0056b3;
+}
+</style>
+
+
+  
+
+</head>
+<body>
+
+
+    <div class="gradient-bg"></div>
+
+<form action="register.php" method="post">
+
+<h2>Register</h2>
+
+<input type="text" name="name" placeholder="Ismingiz" required>
+
+<input type="email" name="email" placeholder="Email" required>
+
+<input type="password" name="password" placeholder="Parol" required>
+
+<button class="osiro" type="submit">Ro'yxatdan o'tish</button>
+
+</form>
+
+</body>
+</html>
